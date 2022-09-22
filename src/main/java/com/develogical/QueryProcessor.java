@@ -8,6 +8,9 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
+        if (query.toLowerCase().contains("sun")) {
+            return "The sun is a very very very very very very very very big star.";
+        }
         return "";
     }
 }
